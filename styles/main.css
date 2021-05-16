@@ -1,0 +1,248 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+/*body{
+  background-color: rgba(30,30,30,1);
+}*/
+
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.noSpace{
+  margin: 0;
+  padding: 0;
+}
+
+/* source: http://stackoverflow.com/a/23935891/3853728 */
+.img-gradient{
+  position: relative;
+  display: inline-block;
+}
+.img-gradient:after {
+  content: '';
+  position: absolute;
+	left: 70px;
+	top: 73px;
+  border: transparent;
+  border-radius: 38px;
+  width:100%; height:100%;
+  display: inline-block;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 30%,rgba(0,0,0, 1) 100%); /* W3C */
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 30%,rgba(0,0,0, 1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(220, 66, 37, 0.5)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 30%,rgba(0,0,0, 1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0,0,0,0) 30%,rgba(0,0,0, 1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,0,0,0) 30%,rgba(0,0,0, 1) 100% 100%); /* IE10+ */}
+.img-gradient img{
+  display: block;
+}
+
+#dweepa {
+	filter: drop-shadow(0px 12px 42px rgba(0, 0, 0, 0.051));
+	position: relative;
+	width: 350px;
+	overflow: visible;
+	left: 70px;
+	top: 73px;
+}
+#hello{
+  position: absolute;
+  display: inline-block;
+	left: 124px;
+	top: 380px;
+  width: 130px;
+}
+#aboutme{
+  position: absolute;
+  display: inline-block;
+	left: 129px;
+	top: 470px;
+  width: 220px;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+  letter-spacing: 0.8px;
+	color: rgba(255,255,255,1);
+}
+
+.navigation {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 120px;
+  height: 35px;
+  font-family: 'Arial', sans-serif;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  }
+.button:hover {
+  position: absolute;
+  background-color: rgba(55, 55, 55, 1);
+  box-shadow: 0px 3px 6px rgba(40, 40, 40, 1);;
+  color: #fff;
+}
+.button:focus {
+  outline: 0;
+}
+
+#educationbutton{
+  background-color: rgba(55, 55, 55, 1);
+  box-shadow: 0px 3px 6px rgba(40, 40, 40, 0.5);;
+  color: #fff;
+}
+#educationbutton:hover{
+  background-color: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  color: #000;
+
+}
+
+#education {
+	top: 400px;
+  margin-left: 374px;
+}
+#experience {
+	top: 445px;
+  margin-left: 374px;
+}
+#publications {
+	top: 490px;
+  margin-left: 374px;
+}
+#github {
+	top: 535px;
+  margin-left: 374px;
+}
+#linkedin {
+	top: 580px;
+  margin-left: 374px;
+}
+
+.detail{
+  top: 65px;
+  position: relative;
+  overflow: visible;
+  width: 289px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  color: rgba(68,68,68,1);
+  letter-spacing: 3px;
+}
+
+.divider {
+	overflow: visible;
+  position: relative;
+	width: auto;
+	height: 4px;
+	left: 0px;
+	top: 65px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#divider{
+  fill: transparent;
+	stroke: rgba(68,68,68,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.university {
+	position: absolute;
+	width: 500px;
+	left: 20px;
+	overflow: visible;
+}
+
+.logo{
+	position: absolute;
+	left: 0;
+	width: 120px;
+  margin-top: 5px;
+}
+
+.degree{
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Century;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+
+.college{
+  	overflow: visible;
+  	white-space: nowrap;
+  	text-align: left;
+  	font-family: Arial;
+  	font-style: italic;
+  	font-weight: normal;
+  	font-size: 15px;
+  	color: rgba(68,68,68,1);
+}
+
+.gpa {
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(68,68,68,1);
+}
+
+.content{
+	overflow: visible;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+  width: 500px;
+	font-size: 13px;
+	color: rgba(68,68,68,1);
+}
+
+.moveLeft{
+  margin-left: 190px;
+}
+
+.dot {
+  fill: rgba(200,200,200,1);
+  stroke: rgba(200,200,200,1);
+  stroke-width: 2;
+  margin-top: 40px;
+  position: relative;
+}

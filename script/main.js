@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   // hide the other tabs on load
-  $("#educationDetail").hide();
+  $("#experienceDetail").hide();
   $("#publicationDetail").hide();
 
   $("#education").click(function(){

@@ -1,5 +1,145 @@
 <html>
-<body>
-	<h1>hi</h1>
+<head>
+	<title>Dweepa Honnavalli</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="styles/main.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="script/main.js"></script>
+	</head>
+  <body>
+		<div class="container no-space">
+			<div class="row">
+				<div class="col-sm-5" id="about">
+					<div class="img-gradient">
+						<img id="dweepa" class="img-fluid" src="assets/dweepa.png">
+					</div>
+					<img id="hello" src="assets/hello.png" alt="hello!">
+					<p id="about-me">I'm Dweepa and this is my website. orem ipsum dolor sit amet,
+						consetetur sadipscing elitr, sed diam nonumy eirmod tempor et, consetetur
+						sadipscing elitr, sed diam nonumy eirmod tempor </p>
+					<div class="navigation">
+						<button class="button" id="education">Education</button>
+						<button class="button" id="experience">Experience</button>
+						<button class="button" id="publications">Publications</button>
+						<button class="button" id="github">Github</button>
+						<button class="button" id="linkedin">LinkedIn</button>
+					</div>
+				</div>
+				<div class="col-sm-7" style="left: 50px;">
+					<div class="tab">Education</div>
+					<svg  class="divider" viewBox="0 0 640 4">
+								<path id="divider" d="M 0 0 L 640 0"></path>
+					</svg>
+
+					<div id="educationtab">
+							<div class="box" style="margin-top:90px;">
+								<img src="assets/usclogo.png" class="logo">
+								<div class="move-left">
+									<div class="heading1">
+										M.S. Computer Science (Artificial Intelligence)
+									</div>
+									<div class="heading2">
+										University of Southern California, Los Angeles <br/>
+										Aug 2021 - May 2023
+									</div>
+									<button class="button-inverted" id="coursebutton" style="margin-top: 15px;">Course Projects</button>
+								</div>
+							</div>
+							<div class="box">
+								<img src="assets/pes_logo.png" class="logo">
+								<div class="move-left">
+									<div class="heading1">
+										B. Tech Computer Science and Engineering
+									</div>
+									<div class="heading2">
+										PES University, Bangalore, India <br/>
+										Aug 2016 - June 2020
+									</div>
+									<div class="gpa">
+										<span>9.4/10 CGPA</span>
+									</div>
+									<div class="content">Recipient of Prof. CNR Rao and Prof. MR Doreswamy Scholarships</div>
+								<button class="button-inverted" id="coursebutton" style="margin-top: 15px;">Course Projects</button>
+								</div>
+							</div>
+					</div>
+
+					<div id="coursetab">
+						<div class="row box">
+							<div class="col-sm">
+								<button class="button-inverted square-button">Deep Learning</button>
+							</div>
+							<div class="col-sm">
+								<button class="button-inverted square-button">Natural Language Processing</button>
+							</div>
+							<div class="col-sm">
+								<button class="button-inverted square-button">Data Analytics</button>
+							</div>
+						</div>
+					</div>
+
+					<div id="experiencetab">
+							<div class="box" style="margin-top:90px;">
+								<img src="assets/gslogo.png" style="padding:10px; padding-top:5px;" class="logo">
+								<div class="move-left">
+									<div class="heading1">Goldman Sachs</div>
+									<div class="heading2">Bangalore, India</div>
+									<div class="row">
+										<div class="col-sm-2">
+											<svg class="dot" height="330" width="50">
+		  									<ellipse cx="10" cy="10" rx="4" ry="4"/>
+												<line x1="10" y1="25" x2="10" y2="200"/>
+			  								<ellipse cx="10" cy="215" rx="4" ry="4"/>
+											</svg>
+										</div>
+										<div class="col-sm-10" style="margin-top: 20px;">
+											<div>
+												<div class="heading1"> Technology Analyst </div>
+												<div class="heading2"> Aug 2020 - May 2021 </div>
+												<div class="content" style="width: 300px;"> Built the user interface and enhanced the business logic of the Order Management System of Private Wealth Management to facilitate the processing of orders containing Equity and Fixed Income asset classes. </div>
+											</div>
+											<div style="margin-top:30px;">
+												<div class="heading1"> Summer Analyst </div>
+												<div class="heading2"> Jan 2020 - June 2020 </div>
+												<div class="content" style="width: 300px;"> Built the user interface and enhanced the business logic of the Order Management System of Private Wealth Management to facilitate the processing of orders containing Equity and Fixed Income asset classes. </div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+					</div>
+
+					<div id="publicationtab">
+							<div class="box" style="margin-top:90px;">
+									<img src="assets/IEEELogo.png" style="padding:20px; padding-top:0;" class="logo">
+									<div class="move-left">
+										<div class="heading1"> VIRTECS: Virtual Screening Of Therapeutic Classes Using Encodings Of Chemical Structures</div>
+										<div class="heading2">
+											D. Honnavalli, K. Varma and G. Srinivasa, "VIRTECS: Virtual Screening Of Therapeutic Classes Using
+											Encodings Of Chemical Structures," 2020 Fifth International Conference on Research in Computational
+											Intelligence and Communication Networks (ICRCICN), Bangalore, 2020, pp. 22-29, doi: 10.1109/ICRCICN50933.2020.9296180.
+										</div>
+										<button class="button-inverted" onclick="window.open('https://ieeexplore.ieee.org/document/9296180')" style="margin-top: 15px;">Publication</button>
+									</div>
+							</div>
+							<div class="box">
+									<img src="assets/springerlogo.png" style="padding:20px; padding-top:0;" class="logo">
+									<div class="move-left">
+											<div class="heading1"> Supervised Machine Learning Model for Accent Recognition in
+												English Speech Using Sequential MFCC Features
+											</div>
+											<div class="heading2">Honnavalli, Dweepa, and S. S. Shylaja. “Supervised Machine Learning Model
+												for Accent Recognition in English Speech Using Sequential MFCC Features” Advances
+												in Artificial Intelligence and Data Engineering. Springer, Singapore 55-66
+											</div>
+											<button class="button-inverted" onclick="window.open('https://link.springer.com/chapter/10.1007/978-981-15-3514-7_5')" style="margin-top: 15px;">Publication</button>
+									</div>
+							</div>
+					</div>
+
+				</div>
+
+		</div>
+		</div>
   </body>
 </html>
